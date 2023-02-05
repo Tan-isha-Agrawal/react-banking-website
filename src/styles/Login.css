@@ -1,0 +1,50 @@
+.common {
+    background-color: yellow;
+    min-height: 40vh;
+    font-size: 25px;
+    color: crimson;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+    background-image: url("../../public/images/backgroundImgGoldenYellow.png");
+    justify-content: center;
+    border: 5px solid yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.common h1{
+    text-align: center;
+    font-weight:bolder;
+}
+
+    .common button {
+        text-align: center;
+        font-weight: bolder;
+    }
+
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+.error {
+    color:#db2269;
+    font-size: 0.625em;
+    display: relative;
+  }

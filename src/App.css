@@ -1,0 +1,31 @@
+.App-header {
+    background-color: yellow;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    color: crimson;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+    background-image: url("../public/images/backgroundImgGoldenYellow.png");
+    justify-content: center;
+    border: 5px solid yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    position: inherit;
+    bottom: 3px;
+    width: 100%;
+    font-weight: bolder;
+    font-family: 'Comic Sans MS';
+    justify-content: center;
+    text-align: center;
+    height: 70px;
+    background-color: darkviolet;
+    color: white;
+    background-image: url('../public/images/backgroundImgViolet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
